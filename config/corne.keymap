@@ -126,10 +126,10 @@
 
         function {
             bindings = <
-&kp C_RESET  &kp F1        &kp F2        &kp F3          &kp F4          &kp F5          &kp F6   &kp F7           &kp F8                 &kp F9            &kp F10            &trans
-&caps_word   &kp LSHFT     &kp LCTRL     &kp LG(LS(N3))  &kp LS(LG(N4))  &kp F11         &kp F12  &mt RGUI C_PREV  &mt RALT C_PLAY_PAUSE  &mt RCTRL C_NEXT  &mt RSHIFT C_STOP  &trans
-&bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &trans   &kp C_MUTE       &kp C_VOL_DN           &kp C_VOL_UP      &kp K_LOCK         &kp LS(LA(LC(LG(GRAVE))))
-                                         &trans          &to 0           &trans          &trans   &trans           &trans
+&kp C_RESET  &kp F1        &mt LA(LC(LG(LSHFT))) F2  &mt LA(LC(LSHFT)) F3  &kp F4               &kp F5          &kp F6   &kp F7           &mt LA(LC(LSHFT)) F8   &mt LA(LC(LG(LSHFT))) F9  &kp F10            &kp C_BRIGHTNESS_INC
+&caps_word   &kp LSHFT     &kp LCTRL                 &mt LALT LS(LG(N3))   &mt LGUI LS(LG(N4))  &kp F11         &kp F12  &mt RGUI C_PREV  &mt RALT C_PLAY_PAUSE  &mt RCTRL C_NEXT          &mt RSHIFT C_STOP  &kp C_BRIGHTNESS_DEC
+&bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1              &bt BT_SEL 2          &bt BT_SEL 3         &bt BT_SEL 4    &trans   &kp C_MUTE       &kp C_VOL_DN           &kp C_VOL_UP              &kp K_LOCK         &kp LS(LA(LC(LG(GRAVE))))
+                                                     &trans                &to 0                &trans          &trans   &trans           &trans
             >;
         };
 
@@ -137,7 +137,7 @@
             bindings = <
 &to 0   &kp ESC    &kp LA(LC(LG(LSHFT)))  &kp LA(LC(LSHFT))  &trans    &trans     &kp HOME        &kp PG_DN  &kp PG_UP     &kp END          &kp EQUAL      &trans
 &trans  &kp LSHFT  &kp LCTRL              &kp LALT           &kp LGUI  &kp DEL    &kp LEFT_ARROW  &kp DOWN   &kp UP_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE  &trans
-&trans  &trans     &trans                 &trans             &trans    &trans     &kp CARET       &kp SQT    &kp TILDE     &kp DQT          &kp GRAVE      &trans
+&to 3   &trans     &trans                 &trans             &trans    &trans     &kp CARET       &kp SQT    &kp TILDE     &kp DQT          &kp GRAVE      &trans
                                           &trans             &to 0     &trans     &trans          &trans     &trans
             >;
         };
