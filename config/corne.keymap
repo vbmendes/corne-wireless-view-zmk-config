@@ -110,6 +110,7 @@
         compatible = "zmk,keymap";
 
         qwerty {
+            display-name = "qwerty";
             bindings = <
 &kp TAB                 &kp Q  &kp W  &kp E  &kp R  &kp T                        &kp Y      &kp U      &kp I      &kp O       &kp P          &kp BACKSPACE
 &kp LA(LC(LG(LSHIFT)))  &kp A  &kp S  &kp D  &kp F  &kp G                        &kp H      &kp J      &kp K      &kp L       &kp SEMICOLON  &kp LA(LC(LG(LSHFT)))
@@ -119,6 +120,7 @@
         };
 
         symbols {
+            display-name = "symbols";
             bindings = <
 &to 0   &kp EXCLAMATION    &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                &kp ASTRK  &kp LPAR    &kp RPAR     &kp MINUS   &kp EQUAL      &to 0
 &to 2   &kp UNDERSCORE     &kp LBRC     &kp LPAR  &kp LBKT    &kp AMPS                   &kp CARET  &kp SQT     &kp GRAVE    &cedilla    &kp BACKSPACE  &to 2
@@ -128,6 +130,7 @@
         };
 
         numpad {
+            display-name = "numpad";
             bindings = <
 &to 0   &kp EXCL           &kp AT    &kp HASH  &kp DOLLAR  &kp PRCNT                  &kp ASTRK  &kp N7  &kp N8  &kp N9  &kp EQUAL      &to 0
 &to 2   &kp UNDER          &kp LBRC  &kp LPAR  &kp LBKT    &kp AMPS                   &kp MINUS  &kp N4  &kp N5  &kp N6  &kp BACKSPACE  &to 2
@@ -137,6 +140,7 @@
         };
 
         function {
+            display-name = "function";
             bindings = <
 &to 0        &kp F1        &mt LA(LC(LG(LSHFT))) F2  &mt LA(LC(LSHFT)) F3  &kp F4               &kp F5                        &kp F6   &kp F7           &mt LA(LC(LSHFT)) F8   &mt LA(LC(LG(LSHFT))) F9  &kp F10            &kp C_BRIGHTNESS_INC
 &kp C_RESET  &kp LSHFT     &kp LCTRL                 &mt LALT LS(LG(N3))   &mt LGUI LS(LG(N4))  &kp F11                       &kp F12  &mt RGUI C_PREV  &mt RALT C_PLAY_PAUSE  &mt RCTRL C_NEXT          &mt RSHIFT C_STOP  &kp C_BRIGHTNESS_DEC
@@ -146,6 +150,7 @@
         };
 
         nav {
+            display-name = "nav";
             bindings = <
 &to 0   &kp ESC    &kp LA(LC(LG(LSHFT)))  &kp LA(LC(LSHFT))  &trans    &trans                    &kp HOME        &kp PG_DN  &kp PG_UP     &kp END          &kp EQUAL      &to 0
 &to 2   &kp LSHFT  &kp LCTRL              &kp LALT           &kp LGUI  &kp DEL                   &kp LEFT_ARROW  &kp DOWN   &kp UP_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE  &to 2
