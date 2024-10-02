@@ -53,56 +53,67 @@
         lsft {
             bindings = <&kp LSHFT>;
             key-positions = <15 16>;
+            layers = <0 1 2 3>;
         };
 
         rsft {
             bindings = <&kp RSHFT>;
             key-positions = <19 20>;
+            layers = <0 1 2 3>;
         };
 
         lgui {
             bindings = <&kp LGUI>;
             key-positions = <27 28>;
+            layers = <0 1 2 3>;
         };
 
         rgui {
             bindings = <&kp RGUI>;
             key-positions = <31 32>;
+            layers = <0 1 2 3>;
         };
 
         lctl {
             bindings = <&kp LCTRL>;
             key-positions = <26 27>;
+            layers = <0 1 2 3>;
         };
 
         rctl {
             bindings = <&kp RCTRL>;
             key-positions = <32 33>;
+            layers = <0 1 2 3>;
         };
 
         lalt {
             bindings = <&kp LALT>;
             key-positions = <25 28>;
+            layers = <0 1 2 3>;
         };
 
         ralt {
             bindings = <&kp RALT>;
             key-positions = <31 34>;
+            layers = <0 1 2 3>;
         };
 
         lhypr {
             bindings = <&kp LA(LC(LG(LSHFT)))>;
             key-positions = <1 2 3 4>;
+            layers = <0 1 2 3>;
         };
 
         rhypr {
             bindings = <&kp LA(LC(LG(LSHFT)))>;
             key-positions = <7 8 9 10>;
+            layers = <0 1 2 3>;
         };
 
         capsword {
             bindings = <&caps_word>;
             key-positions = <14 15 20 21>;
+            layers = <0 1 2 3>;
         };
     };
 
