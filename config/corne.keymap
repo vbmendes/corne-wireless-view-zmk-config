@@ -68,6 +68,18 @@
             layers = <0 1 2 3>;
         };
 
+        ltgui {
+            bindings = <&kp LGUI>;
+            key-positions = <36 37>;
+            layers = <0 1 2 3>;
+        }
+
+        rtgui {
+            bindings = <&kp LGUI>;
+            key-positions = <40 41>;
+            layers = <0 1 2 3>;
+        }
+
         rgui {
             bindings = <&kp RGUI>;
             key-positions = <31 32>;
