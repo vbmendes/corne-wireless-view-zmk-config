@@ -190,7 +190,7 @@
 &to 0   &kp ESC    &kp HOME        &kp PG_DN  &kp PG_UP     &kp END                              &kp HOME           &kp PG_DN  &kp PG_UP     &kp END          &kp LC(LG(Q))  &to 0
 &to 2   &kp DEL    &kp LEFT_ARROW  &kp DOWN   &kp UP_ARROW  &kp RIGHT_ARROW                      &kp LEFT_ARROW     &kp DOWN   &kp UP_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE  &to 2
 &to 3   &kp LSHFT  &kp LCTRL       &kp LALT   &kp LGUI      &kp LA(LC(LSHFT))                    &kp LA(LC(LSHFT))  &kp LGUI   &kp LALT      &kp LCTRL        &kp LSHFT      &to 3
-                                              &trans        &trans             &kp LGUI  &trans  &trans             &trans
+                                              &trans        &trans             &kp LGUI  &trans  &kp EQUAL          &trans
             >;
         };
     };
