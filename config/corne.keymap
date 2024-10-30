@@ -172,7 +172,7 @@
 &to 0   &kp EXCL  &kp AT_SIGN        &kp HASH  &kp DOLLAR  &kp PERCENT                    &kp ASTRK  &kp LPAR    &kp RPAR     &kp MINUS   &kp EQUAL      &to 0
 &to 2   &kp LBRC  &kp RBRC           &kp LPAR  &kp RPAR    &kp UNDERSCORE                 &kp CARET  &kp SQT     &kp GRAVE    &cedilla    &kp BACKSPACE  &to 2
 &to 3   &kp BSLH  &kp LC(LG(SPACE))  &kp LBKT  &kp RBKT    &kp AMPS                       &circspc   &quotspace  &gravespace  &kp LA(N0)  &kp LA(N9)     &to 3
-                                               &mo 3       &trans          &trans  &mo 4  &trans     &trans
+                                               &mo 3       &trans          &trans  &mo 4  &trans     &kp ENTER
             >;
         };
 
